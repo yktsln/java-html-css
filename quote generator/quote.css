@@ -1,0 +1,97 @@
+title{
+    display: none;
+}
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato",sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(https://media.istockphoto.com/id/1460007248/de/foto/bibliothek-forschung-und-reihe-von-b%C3%BCchern-im-b%C3%BCcherregal-zum-lesen-wissen-und-p%C3%A4dagogisches.jpg?s=2048x2048&w=is&k=20&c=GZ83z3KvCJx0lAMC-_Po0pzPzeHWZ3qHxXw5X-TYpJs=)
+    no-repeat center center/cover;
+
+
+}
+
+.container{
+    height: 550px;
+    width: 450px;
+}
+
+
+
+.header {
+    
+    text-wrap: nowrap;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: #fff;
+    background-color: #262626;
+    padding: 5px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 5px;
+
+
+}
+
+
+.man-content{
+   
+    width: 110%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+    margin-left: -20px;
+}
+
+
+
+.man-content .text-area{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    
+
+}
+
+ .person{
+
+    font-size: 1.3rem;
+    color: rgb(202, 30, 30);
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}
+
+.button-area{
+
+    margin-top: 30px;
+    
+
+
+}
+
+#button{
+    
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #262626;
+    color: white;
+    cursor: pointer;
+
+
+}
+

@@ -1,0 +1,63 @@
+body{
+    height:100vh;
+    border:10px solid aliceblue;
+    display: flex;
+background: rgb(2, 0, 36);
+    background: -moz-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 51, 88, 1) 0%, rgba(67, 144, 210, 1) 80%, rgba(198, 198, 198, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 51, 88, 1) 0%, rgba(67, 144, 210, 1) 80%, rgba(198, 198, 198, 1) 100%);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 51, 88, 1) 0%, rgba(67, 144, 210, 1) 80%, rgba(198, 198, 198, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#c6c6c6", GradientType=1);
+}
+
+.div2,
+.div1,
+.button{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+
+
+}
+
+.div2{
+    font-size: 50px;
+    border: 9px solid aliceblue;
+    border-radius: 10px;
+    margin-top: 300px;
+    padding: 100px 100px;
+    
+    
+}
+
+.div1{
+    font-size: 50px;
+    border: 6px solid aliceblue;
+    border-radius: 10px;
+    padding: 60px 50px;
+    
+}
+.div1 span{
+ display: flex;   
+ justify-content: center;
+
+}
+
+.button{
+    font-size: 25px;
+    border: 3px solid aliceblue;
+    border-radius: 5px;
+    background-color: inherit;
+    padding: 4px 20px;
+    cursor: pointer;
+    
+
+}
+
+.button:hover{
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.5);
+}

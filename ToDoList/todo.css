@@ -1,0 +1,118 @@
+body{
+
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1543233604-3baca4d35513?auto=format&fit=crop&q=80&w=1287&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#add-task-container{
+    width: 350px;
+    padding:20px 10px ;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 1px 15px 12px #000000;
+    box-shadow: 2px 1px 15px 12px #000000;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+
+input{
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+
+}
+
+#add-task{
+    font-size: 1.2rem;
+    padding: 5px;
+
+    flex: 1;
+    background: white;
+    color: darkgreen;
+    border: solid 2px darkgreen;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+
+
+}
+
+#add-task:hover{
+
+    background-color: darkgreen;
+    color: white;
+    transition: 0.6s;
+}
+
+
+
+/*styling for task whch get added to do list*/
+
+.task{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.task li{
+    flex: 4;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+
+.task button{
+
+    flex: 1;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.task .checktask{
+    color: orange;
+    margin-right: 5px;
+    border: 1px solid orange;
+    font-size: 1.5rem;
+}
+.task .deleteTask{
+    color: red;
+    border: solid 1px red;
+    font-size: 1.3rem;
+}
+
+
+.task .deleteTask:hover{
+    transition: 0.6s;
+    background-color: red;
+    color: white;
+}
+
+.task .checktask:hover {
+    transition: 0.6s;
+    background-color:orange;
+    color: white;
+}
+
